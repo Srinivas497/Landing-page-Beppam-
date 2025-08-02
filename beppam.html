@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      color: white;
+      font-family: sans-serif;
+    }
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #222;
+      padding: 10px 20px;
+    }
+    .navbar .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #f5f5f5;
+      text-align: left;
+    }
+    .navbar .menu a {
+      flex: 1;
+      text-align: center;
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+    }
+    
+    .beppam {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+    .movie {
+      text-align: center;    }
+    .movie img {
+      width: 180px;
+      height: 220px;
+      border-radius: 8px;
+    }
+    .movie p {
+      margin: 5px 0 0 0;
+      font-weight: bold;
+      font-style: oblique;
+    }
+    .movie span {
+      font-size: 12px;
+      color: #a4ff4f;
+    }
+    .foot{
+      text-align:center;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="navbar">
+    <div class="logo">bappam</div>
+    <div class="menu">
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Bug</a>
+    </div>
+    <div class="search">
+     <label for="">Search:</label> <input type="text" placeholder="Search...">
+    </div>
+  </div>
+
+  <div class="beppam">
+    <h2>Where Quality & Clarity Matters</h2>
+    <p>Watch Telugu movies in HD, exclusively available on bappam.tv</p>
+  </div>
+ 
+  <div class="movies">
+    <div class="movie">
+      <img src="https://tse2.mm.bing.net/th/id/OIF.r67e1GSU5APXpumFqgTjrg?pid=Api&P=0&h=180" alt="Kingdom">
+      <p>Kingdom</p><span>2025</span>
+    </div>
+
+    <div class="movie">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.6RZtx8u71sN8IfzfetyO7QHaJQ?pid=Api&P=0&h=180" alt="Show Time">
+      <p>Show Time</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.EyqbkVDPsIkv-QquEBrl-wHaLG?pid=Api&P=0&h=180" alt="8 vasantalu">
+      <p>8 vasantalu</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.apbn9OPphmcZwcvKN_xS_QHaK-?pid=Api&P=0&h=180" alt="Morgan">
+      <p>Morgan</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.ldJkjcE6IuoNEJGVvRsLtwHaKn?pid=Api&P=0&h=180" alt="Ittymaani">
+      <p>Ittymaani</p><span>2019</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.0hmukbe5AMTiXni_VDJlSAHaKk?pid=Api&P=0&h=180" alt="Hebbuli">
+      <p>Hebbuli</p><span>2023</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.shj3cODtuerCX_aXFlIAgQHaKf?pid=Api&P=0&h=180" alt="Kannappa">
+      <p>Kannappa</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse4.mm.bing.net/th?id=OIF.HCs5%2bHHgbMfSPyZ07aAzwA&pid=Api&P=0&h=180" alt="Ronth">
+      <p>Ronth</p><span>2024</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse3.mm.bing.net/th/id/OIF.mjhsn4BLnZQ5Dtz9fhr5yA?pid=Api&P=0&h=180" alt="DNA">
+      <p>DNA</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse2.mm.bing.net/th?id=OIF.WTSHOMV8%2b775IftLHtT%2bHg&pid=Api&P=0&h=180" alt="Bhairavam">
+      <p>Bhairavam</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.Tyxh6UC_rI9HqxxwZQn7ggHaJQ?pid=Api&P=0&h=180" alt="Kubera">
+      <p>Kubera</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse3.mm.bing.net/th?id=OIF.W4kMJPn8e0A1%2fU7RBUe2Rw&pid=Api&P=0&h=180" alt="3BHK">
+      <p>3BHK</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.ONfpJWN98a3B2NMiSj2jrgHaLk?pid=Api&P=0&h=180" alt="Pechi">
+      <p>Pechi</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.MD0KvcLtCthTceLsNCxSvAHaHa?pid=Api&P=0&h=180" alt="Pushpa 2">
+      <p>Pushpa 2</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.lsDM3aK-ZIpEW1xHJekbbQHaJQ?pid=Api&P=0&h=180" alt="Game Changer">
+      <p>Game Changer</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202306/Devara_1687223267.jpg" alt="Devara">
+      <p>Devara</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://m.media-amazon.com/images/M/MV5BNmY4YmU2ODYtZjMxZS00ZmNhLThmODgtZWYwNTQwZDMzMzA0XkEyXkFqcGc@._V1_.jpg" alt="OG">
+      <p>OG</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/e69483151781009.6311e6f3aa9c4.jpg" alt="Hari Hara Veera Mallu">
+      <p>Hari Hara Veera Mallu</p><span>2025</span>
+    </div>
+    <div class="movie">
+      <img src="https://cdn.gulte.com/wp-content/uploads/2023/11/F-tQWpkWAAAU9aY-scaled.jpeg" alt="Salaar">
+      <p>Salaar</p><span>2023</span>
+    </div>
+    <div class="movie">
+      <img src="https://static.moviecrow.com/gallery/20240112/224643-Kalki%20Prabhas%202898%20AD%20Release%20Date.jpg" alt="Kalki 2898 AD">
+      <p>Kalki 2898 AD</p><span>2024</span>
+    </div>
+    <div class="movie">
+      <img src="https://onlookersmedia.in/wp-content/uploads/2019/01/kamal-haasan-in-indian-2-movie-stills-images-4.jpg" alt="Indian 2">
+      <p>Indian 2</p><span>2024</span>
+    </div>
+    <div class="movie">
+      <img src="https://www.isaimini6.com/files/images/Kanguva_(2024)_Tamil_Movie.jpg" alt="Kanguva">
+      <p>Kanguva</p><span>2024</span>
+    </div>
+    <div class="movie">
+      <img src="https://wallpaperaccess.com/full/9372406.jpg" alt="Leo">
+      <p>Leo</p><span>2023</span>
+    </div>
+    <div class="movie">
+      <img src="https://www.pinkvilla.com/images/2023-08/1691567785_jailer-1.jpeg" alt="Jailer">
+      <p>Jailer</p><span>2023</span>
+    </div>
+    <div class="movie">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.vPRSC3MCzY4C-mOKkEnUnQHaJQ?pid=Api&P=0&h=180" alt="Dasara">
+      <p>Dasara</p><span>2023</span>
+    </div>
+  </div>
+  <footer class="foot">
+    <P>&copy;All rights are reserved</P>
+  </footer>
+</body>
+</html>
